@@ -9,13 +9,14 @@ namespace SQLInjectionLab
     public class UsuarioDAO
     {
         #region singleton
-        private static readonly UsuarioDAO _instancia = new UsuarioDAO();
+        private static readonly UsuarioDAO _instancia = new UsuarioDAO() { };
         public static UsuarioDAO Instancia { get { return _instancia; } }
         #endregion singleton
 
         public List<Usuario> ObtenerDatos(string username, string password)
         {
             List<Usuario> usuarios = null;
+            _ = new SQLDBContext();
 
             try
             {
