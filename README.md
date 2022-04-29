@@ -1,4 +1,4 @@
-# Caso Práctico de Laboratorio #1
+# Caso Práctico de Laboratorio #1 [![.NET](https://github.com/raedmiranda/SQLInjectionLab/actions/workflows/dotnet.yml/badge.svg)](https://github.com/raedmiranda/SQLInjectionLab/actions/workflows/dotnet.yml)
 
 ### Pasos iniciales
 1. Clone el repositorio.
